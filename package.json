@@ -1,0 +1,51 @@
+{
+  "name": "chain.js",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "node node_modules/webpack/bin/webpack.js --config config/webpack.config.js",
+    "postinstall": "node node_modules/typings/dist/bin.js install --overwrite",
+    "start": "node build/compiled"
+  },
+  "main": "",
+  "keywords": [
+    "Easy",
+    "functional",
+    "simple",
+    "chainable"
+  ],
+  "author": "chain.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
+    "@types/body-parser": "^1.16.8",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/core-js": "^0.9.43",
+    "@types/debug": "0.0.30",
+    "@types/express": "^4.0.39",
+    "@types/express-serve-static-core": "^4.0.57",
+    "@types/mime": "^2.0.0",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^8.0.58",
+    "@types/serve-static": "^1.13.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
