@@ -37,7 +37,6 @@ module.exports = {
     },
     plugins: [
         new ReloadServerPlugin({
-            // Defaults to process.cwd() + "/server.js" 
             script: "build/compiled",
         }),
     ],
