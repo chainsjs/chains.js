@@ -1,6 +1,6 @@
 ### Chain.Js
 
-This is just a starter project for our Framework.
+ Simplistic General purpose Nodejs Framework based on the concepts of functional progamming 
 
 ### Easy starter project for writing modern Express Applications using TypeScript and Webpack
 
