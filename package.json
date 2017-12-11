@@ -7,8 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "node node_modules/webpack/bin/webpack.js --config config/webpack.config.js",
-    "postinstall": "node node_modules/typings/dist/bin.js install --overwrite",
+    "build": "node node_modules/webpack/bin/webpack.js --config config/webpack.config.js",c
     "start": "node build/compiled"
   },
   "main": "",
@@ -44,6 +43,7 @@
     "app-root-path": "^2.0.1",
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "morgan": "^1.9.0"
