@@ -15,7 +15,7 @@ This project is used to quickly get started with Webpack using Express and TypeS
 
 **Setup**
 ---
-**[Clone this Repository](https://github.com/jsecademy/webpack-express-typescript/archive/master.zip)**
+**[Clone this Repository](https://github.com/chainsjs/chains.js/archive/master.zip)**
 
 ```
 npm install
