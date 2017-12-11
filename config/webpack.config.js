@@ -1,4 +1,5 @@
 const root = require('app-root-path').path;
+const ReloadServerPlugin = require('reload-server-webpack-plugin');
 
 module.exports = {
     entry: `${root}/bin/www.ts`,
@@ -33,5 +34,11 @@ module.exports = {
                 }
             ]
         }]
-    }
+    },
+    plugins: [
+        new ReloadServerPlugin({
+            // Defaults to process.cwd() + "/server.js" 
+            script: "build/compiled",
+        }),
+    ],
 };
