@@ -1,1 +1,2 @@
-cp -r . /home/ubuntu/chainJs
+cp -r /home/ubuntu/second-repo /home/ubuntu/chainJs
+rm -r /home/ubuntu/second-repo
