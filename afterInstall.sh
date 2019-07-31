@@ -1,1 +1,1 @@
-cp -r . ../chainJs
+cp -r . /home/ubuntu/chainJs
